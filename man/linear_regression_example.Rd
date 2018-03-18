@@ -2,7 +2,7 @@
 % Please edit documentation in R/RcppExports.R
 \name{linear_regression_example}
 \alias{linear_regression_example}
-\title{RcppNumericalSolver example}
+\title{Linear regression example}
 \usage{
 linear_regression_example()
 }
@@ -10,5 +10,5 @@ linear_regression_example()
 Numeric vector
 }
 \description{
-An example demonstrating RcppNumericalSolver
+An example demonstrating linear regression with the RcppNumericalSolver library.
 }

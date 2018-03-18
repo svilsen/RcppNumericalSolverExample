@@ -35,9 +35,9 @@ public:
   }
 };
 
-//' @title RcppNumericalSolver example
+//' @title Linear regression example
 //'
-//' @description An example demonstrating RcppNumericalSolver
+//' @description An example demonstrating linear regression with the RcppNumericalSolver library.
 //'
 //' @return Numeric vector
 //[[Rcpp::export()]]
@@ -89,6 +89,11 @@ public:
 
 };
 
+//' @title Rosenbrock example
+//'
+//' @description An example demonstrating Rosenbrock with the RcppNumericalSolver library.
+//'
+//' @return Numeric vector
 //[[Rcpp::export()]]
 Eigen::VectorXd rosenbrock_example()
 {
@@ -126,6 +131,11 @@ class NonNegativeLeastSquares : public cppoptlib::BoundedProblem<double> {
     }
 };
 
+//' @title Non-negative least squares example
+//'
+//' @description An example demonstrating non-negative least squares with the RcppNumericalSolver library
+//'
+//' @return Numeric vector
 //[[Rcpp::export()]]
 Eigen::VectorXd nonnegativeleastsquares_example()
 {
